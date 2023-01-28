@@ -1,0 +1,23 @@
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img__icono{
+    width: 20px;
+    height: 20px;
+}
+.lista__cabecera{
+    display: flex;
+}
+
+.item__cabecera{
+    list-style: none;
+    padding: 10px;
+
+}
+
+.link__cabercera{
+    text-decoration: none;
+    color: lightblue
+}
