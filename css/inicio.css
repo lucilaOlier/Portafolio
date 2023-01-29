@@ -1,0 +1,45 @@
+.inicio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div1__inicio{
+    flex: none;
+}
+
+.titulo__inicio{
+    font-size: 45px;
+    -webkit-text-stroke: thin;
+}
+
+.lista__inicio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+}
+
+.item__inicio{
+    list-style: none;
+    
+}
+
+.link__inicio{
+    text-decoration: none;
+    color: black;
+    
+}
+.link__inicio:hover{
+    color:pink;
+    cursor: pointer;
+}
+
+
+
+
+.img__inicio{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
