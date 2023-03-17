@@ -1,0 +1,25 @@
+
+.skills__titulo{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.skills__lista {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    
+}
+
+.skills__items{
+    margin: 30px;
+    padding: 30px;
+    display: block;
+    margin: 5px;
+}
+.iconos{
+    margin: 10px;
+    font-size: 40px;
+    display: block;
+}
