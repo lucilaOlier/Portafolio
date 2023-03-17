@@ -1,0 +1,5 @@
+.sobre__mi__titulo{
+    display: flex;
+    margin: 25px;
+    justify-content: center;
+}

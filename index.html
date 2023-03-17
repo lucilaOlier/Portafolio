@@ -8,13 +8,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Raleway:wght@300&display=swap" 
     rel="stylesheet">
-    <link rel="stylesheet" href="/css/estillo.css">
+    <link rel="stylesheet" href="./css/estillo.css">
     <script src="https://kit.fontawesome.com/ab7c623dad.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/css/cabecera.css">
-    <link rel="stylesheet" href="/css/inicio.css">
-    <link rel="stylesheet" href="/css/sobre-mi.css">
-    <link rel="stylesheet" href="/css/skills.css">
-
+    <link rel="stylesheet" href="./css/cabecera.css">
+    <link rel="stylesheet" href="./css/inicio.css">
+    <link rel="stylesheet" href="./css/sobre-mi.css">
+    <link rel="stylesheet" href="./css/skills.css">
+    <link rel="stylesheet" href="./css/hobbies.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -23,7 +23,7 @@
 </head>
 <body>
     <header class="cabecera">
-        <img class="img__icono" src="/css/img/estrella.png" alt="icono" >
+        <img class="img__icono" src="./css/img/estrella.png" alt="icono" >
         <ul class="lista__cabecera">
             <li class="item__cabecera"><a class="link__cabercera" href="#sobre__mi">Sobre Mi</a></li>
             <li class="item__cabecera"><a class="link__cabercera" href="#skills">Skills</a></li>
@@ -33,6 +33,8 @@
             <li class="item__cabecera"><a class="link__cabercera" href="#contacto">Contacto</a></li>
         </ul>
     </header>
+
+    
 
     <section class="inicio">
         
@@ -50,7 +52,7 @@
         </div>
 
         <div class="div2__inicio">
-            <img src="/css/img/mifoto.jpg" class="img__inicio">
+            <img src="./css/img/mifoto.jpg" class="img__inicio">
         </div>
         
         
@@ -59,8 +61,8 @@
 
 
     <section class="sobre__mi" id="sobre__mi">
-        <h2>Sobre Mi</h2>
-        <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        <h2 class="sobre__mi__titulo">Sobre Mi</h2>
+        <P class="sobre__mi__texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
              Fuga ratione reprehenderit quidem iusto laudantium quaerat in quos aliquam distinctio illum enim, 
             libero iure corrupti fugiat et amet nemo hic officia!
         </P>
@@ -71,22 +73,22 @@
     <section class="skills" id="skills">
         <h2 class="skills__titulo">Skills</h2>
         <ul class="skills__lista">
-            <li class="skills__items"><i class=" iconos fa-brands fa-html5"></i>HTML</li>
-            <li class="skills__items"><i class=" iconos fa-brands fa-js"></i>Javascript</li>
-            <li class="skills__items"><i class=" iconos fa-brands fa-css3-alt"></i>CSS</li>
-            <li class="skills__items"><i class=" iconos fa-brands fa-github"></i>GitHub</li>
+            <li class="skills__items"><i class=" iconos-skills fa-brands fa-html5"></i>HTML</li>
+            <li class="skills__items"><i class=" iconos-skills fa-brands fa-js"></i>Javascript</li>
+            <li class="skills__items"><i class=" iconos-skills fa-brands fa-css3-alt"></i>CSS</li>
+            <li class="skills__items"><i class=" iconos-skills fa-brands fa-github"></i>GitHub</li>
         </ul>
     </section>  
 
 
 
     <section class="hobbies" id="hobbies" >
-        <h2>Hobbies</h2>
-        <ul>
-            <li><a href="#">GYM</a></li>
-            <li><a href="#">Series/Peliculas</a></li>
-            <li><a href="#">cocinar</a></li>
-            <li><a href="#">Yoga</a></li>
+        <h2 class="hobbies__titulo">Hobbies</h2>
+        <ul class="hobbies__lista">
+            <li class="hobbies__items"><i class="iconos-hobbies fa-solid fa-dumbbell"></i>GYM</li>
+            <li class="hobbies__items"><i class="iconos-hobbies fa-solid fa-video"></i>Series/Peliculas</li>
+            <li class="hobbies__items"><i class="iconos-hobbies fa-solid fa-utensils"></i>cocinar</li>
+            <li class="hobbies__items"><i class="iconos-hobbies fa-solid fa-book"></i>Leer</li>
        </ul>
     </section>
 

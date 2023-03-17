@@ -1,28 +1,24 @@
-
-.skills__titulo{
+.hobbies__titulo{
     display: flex;
     justify-content: center;
     margin: 25px;
 }
 
-.skills__lista {
+.hobbies__lista{
+    list-style: none;
     display: flex;
     justify-content: center;
-    list-style: none;
-    
 }
 
-.skills__items{
+.hobbies__items{
     margin: 30px;
     padding: 30px;
     text-align: center;
-    
 }
-.iconos-skills{
+
+.iconos-hobbies{
+    display: block;
     margin: 10px;
     font-size: 40px;
-    display: block;
-    color: #2990d4;
-
+    color: #2990d4 ;
 }
-
