@@ -1,0 +1,9 @@
+.formacion__titulo{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+.formacion__div{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,25 @@
+.proyectos__titulo{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+.proyectos__div1{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.proyectos__codificador{
+    height: 370px;
+}
+
+.proyectos__div2{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    
+}
+
+.proyectos__ahorcado{
+    height:490px;
+}
