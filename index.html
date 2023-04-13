@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="./css/proyectos.css">
     <link rel="stylesheet" href="./css/contacto.css">
     <link rel="stylesheet" href="./css/footer.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -136,23 +137,26 @@
                 <h2 class="contacto__titulo">Contacto</h2>
                 <p class="contacto__texto"> Si quiere ponerse en contacto conmigo, <br></br> complete el formulario y me pondre en contacto con usted lo antes posible.
                 </p>
-                <input class="contacto__imputs" type="text" placeholder="Nombre">
+              
+                    <input class="contacto__imputs" type="text" placeholder="Nombre" id="name" required>
                 <br>
                 <br>
     
-                <input class="contacto__imputs" type="email" placeholder="email@mail.com">
+                <input class="contacto__imputs" type="email" placeholder="email@mail.com" id="email">
                 <br>
                 <br>
     
-                <input class="contacto__imputs" type="text" placeholder="asunto">
+                <input class="contacto__imputs" type="text" placeholder="asunto" id="asunto">
                 <br>
                 <br>
     
-                <textarea class="contacto__mensj" placeholder="Mensaje"></textarea>
+                <textarea class="contacto__mensj" placeholder="Mensaje" id="mensaje"></textarea>
                 <br>
                 <br>
     
-                <input class="contacto__boton" type="submit" value="enviar"> 
+                <input class="contacto__boton" type="submit" value="enviar" id="btn__enviar"> 
+             
+                <p class="warning" id="warning"></p>
             </div>
             </div>
            
@@ -169,5 +173,6 @@
         
        
     </footer>
+    <script src="./validacion.js"></script>
 </body>
 </html>

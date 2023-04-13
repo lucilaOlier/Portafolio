@@ -46,3 +46,12 @@ contacto__texto{
 .contacto__boton:hover{
     background-color:#0578c5;
 }
+
+.warning{
+    color: #0578c5;
+    height: 80px;
+    text-align: center;
+    width: 200px;
+    padding-top: 20px;
+    font-weight: bold;
+}
