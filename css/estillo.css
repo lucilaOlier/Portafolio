@@ -1,12 +1,21 @@
+
 body{
-    position: absolute;
-   padding-left: 70px;
-   padding-right: 70px;
-   margin: auto;
-   align-items: center;
+  /*  position: absolute;
+ padding-left: 70px;
+   padding-right: 70px;*/
+   width: 100%;
+   margin: 0 auto;
+  
    font-family: 'Inter', sans-serif;
     font-family: 'Raleway', sans-serif;
    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    margin: inherit;
 }
 
 /*colores
@@ -18,3 +27,21 @@ body{
 
 
 */
+
+@media (max-width: 768px) {
+    body{
+        
+        width: 100%;
+        margin: 0 auto;
+        font-family: 'Inter', sans-serif;
+         font-family: 'Raleway', sans-serif;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    margin: inherit;
+}
+}

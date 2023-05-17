@@ -3,3 +3,19 @@
     margin: 25px;
     justify-content: center;
 }
+
+
+.sobre__mi__texto{
+    word-break: break-word;
+    font-size: 20px
+    
+}
+
+@media (max-width: 768px) {
+
+    .sobre__mi__texto{
+        word-break: break-word;
+        margin: 20px;
+    }
+}
+    
